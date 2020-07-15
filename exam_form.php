@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>View Record</title>
-	<link rel="stylesheet" type="text/css" href="">
+	<link rel="stylesheet" type="text/css" href="custom.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 </head>
 <body>
@@ -13,8 +13,8 @@
 
 	<div>
 		<form method="post" action="sampleform.php" class="general_form">
-			<input type="text" name="reg" id="reg"><br>
-			<input type="submit" class="ef_button" name="submit" value="Fill Form"> <!--ef for exam form page-->
+			<label for="reg">Registration Number</label><input type="text" name="reg" id="reg"><br>
+			<input type="submit" class="submit" name="submit" value="Fill Form"> <!--ef for exam form page-->
 		</form>
 	</div>
 
