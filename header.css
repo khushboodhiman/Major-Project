@@ -1,0 +1,60 @@
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(0,0,0,.9);
+    font: 16px raleway;
+    padding: 7px 25px;
+}
+
+body {
+	background-image: url('back_dark.png');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+img{
+	max-width: 100%
+	height: auto;	
+	display: block;
+    margin: 0 auto;
+}
+
+li {
+	display: inline-block!important;
+}
+
+ul {
+	display: inline-block;
+}
+
+.nav{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: nowrap;	
+}
+
+.nav a:hover{
+  	/*background-color: #d9d9d9; */
+  	/*border-bottom: solid 2px #000;*/
+  }
+
+@media screen and (max-width: 992px) {
+  .nav {
+    float: right;
+  }
+  .nav a:hover{
+  	background-color: #d9d9d9; 
+  }
+}
+
+.bg img {
+	background-size: cover;
+	background-position: center center;
+}
+
+@media screen and (max-width: 992px) {
+	.bg img{
+		height: 50%;
+	}
+}
+

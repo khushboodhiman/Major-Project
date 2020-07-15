@@ -1,0 +1,420 @@
+/*{
+	font: 15px Arial;
+}
+
+.container {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.general_form {
+	padding: 20px;
+	max-width: 500px;
+	margin: 20px auto;
+	background-color: rgba(0,0,0,0.6);
+	height: auto;
+	color: #fff;
+}
+
+input {
+	width: 300px;
+	padding: 11px 5px;
+	margin: 5px auto;
+	display: inline-block;
+}
+
+.button {
+	width: 120px;
+	background-color: rgba(255,255,255,0.8);
+	border: 0;
+	border: solid 1px #000;
+	color: #000;
+	padding: 10px;
+	border-radius: 30px;
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+}
+
+.button:hover {
+	transition-property: all;
+	transition-duration: 2s;
+	background-color: #B22222;
+	color: #fff;
+}
+
+/*----------------------EXAM FORM----------------------*/
+
+
+/*input {
+	color: #000!important;
+	display: inline-block;
+	margin: 15px auto;
+	width: 100%;
+	height: 40px;
+	padding: 10px;
+	border-radius: 30px;
+	background-color: rgba(255,255,255,0.8);
+	border: 0;
+	border-bottom: solid 1px #fff;
+}*/
+
+
+/*------------------FILL RESULT-----------------------*/
+
+/*.entry {
+	color: #fff!important;
+	display: inline-block;
+	width: 80px;
+}
+
+.inputs {
+	color: #000!important;
+	display: inline-block;
+	width: 60%;
+	padding: 10px;
+	margin: 20px 10px;
+	border-radius: 30px;
+	border: 0;
+	border-bottom: solid 1px #fff;
+	background-color: rgba(255,255,255,0.8);
+}
+
+option {
+	color: #000!important;
+}
+
+.input {
+	display: inline;
+    margin: 15px 7px; 
+    color: #000;
+    width: 42%; 
+    height: 40px;
+	padding: 10px;
+    border-radius: 30px;
+    background-color: rgba(255,255,255,0.8);
+    border: 0;
+    border-bottom: solid 1px #fff;
+}
+
+.radio {
+	width: 5%!important;
+    height: 1.5em;
+    display: inline-flex;
+    margin-left: 40px;
+}
+
+/*--------------------------View Result------------------------*/
+
+/*.vr_form {
+	margin: 20px auto;
+    background-color: rgba(0,0,0,0.6);
+    max-width: 750px;
+    padding: 40px;
+}
+
+.vr_label {
+	display: inline-flex;
+    width: 100px;
+    color: #fff;
+}
+
+.vr_entry {
+	width: 40%;
+    padding: 11px;
+    margin: 10px 5px;
+    border-radius: 25px;
+}
+
+.submit {
+	width: 150px;
+    background-color: #ccc;
+    border: solid 1px #000;
+    color: #000;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 0 auto;
+    display: block;
+}
+
+.vr_table {
+	background-color: #fff;
+	margin: 0 auto;
+    padding: 40px;
+}
+
+.td_heading {
+	padding: 8px;
+	text-align: center;
+    font-size: 18px;
+    border-bottom: solid 2px #000;
+}
+
+.vr_tr {
+	border-bottom: solid 1px #ccc;
+}
+
+.vr_td {
+	padding: 8px 60px;
+	font-family: Muli;
+}
+
+.ResultTable {
+	border: solid 1px #fff;
+	margin: 0 auto;
+	color: #fff;
+}
+
+
+/*=============backlog===============*/
+
+/*.backlog_form {
+	margin: 100px auto;
+	font: 17px Arial;
+	line-height: 1.7em;
+}
+
+.table {
+	border-collapse: collapse!important;
+}
+
+.table td {
+	border: solid 1px #000;
+	background-color: #f7f4f4;
+	padding: 7px 15px;
+}
+
+
+/*=========provision================*/
+
+/*.prov_form p{
+	line-height: 3em;
+}
+
+.prov_form input {
+	padding: 4px 2px;
+}
+
+/*.obt_marks {
+	width: 40px;
+}*/
+
+/*.table {
+	margin: 10px auto 20px auto;
+}
+
+.table th {
+	padding: 10px 15px;
+	border: solid 1px #000;
+}
+
+.table td {
+	padding: 3px;
+	width: 100px;
+	text-align: right;
+	border: solid 1px #000;
+}
+
+
+/*=================view_result=====================*/
+
+/*.reg_td, .marks_td, .max_marks_td, .rep_td {
+	padding: 7px 20px;
+}
+
+.edit_button {
+	padding: 2px 11px;
+	border: 0;
+	display: block;
+	margin: 0 auto;
+}
+
+.edit_rep_td {
+	padding: 2px;
+}
+
+.edit_marks {
+	background-color: rgba(118, 116, 116, 0.5);
+	border: 0;
+	padding: 4px 10px;
+	color: #fff;
+}*/
+
+br {
+	height: 0;
+	display: none;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font: 15px Arial;
+}
+
+.container {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+form {
+	max-width: 1000px;
+	width: 600px;
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 10px;
+	min-height: 200px;
+	margin: 50px auto;
+	padding: 50px;
+	color: #fff;
+	font-family: Quicksand;
+}
+
+.result_table {
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 10px;
+	min-height: 200px;
+	margin: 50px auto;
+	padding: 50px;
+	color: #fff;
+	font-family: Quicksand;
+}
+
+label {
+	color: #fff;
+	margin: 10px auto!important;
+	padding-right: 30px;
+	display: inline-block;
+	font: 15px Quicksand;
+	width: auto;
+	min-width: 150px;
+}
+
+input {
+	width: 250px;
+	margin: 8px auto!important;
+	display: inline-block;
+	background-color: transparent;
+	border: 0;
+	border-bottom: solid 1px #fff;
+	color: #fff;
+}
+
+.submit {
+	width: 50%;
+	display: block!important;
+	padding: 14px 20px;
+	background-color: #c6232f;
+	border: 0;
+	border-radius: 30px;
+	margin: 50px auto 10px!important;
+	color: #fff!important;
+	font: 17px Quicksand;
+}
+
+select {
+	width: 60%;
+	background-color: transparent;
+	border: 0;
+	border-bottom: solid 1px #fff;
+	color: #fff;
+	padding: 10px;
+	margin: 8px auto!important;
+}
+
+option {
+	color: #000!important;
+}
+
+.radio {
+	width: auto;
+	padding: 10px;
+}
+
+.radio_label {
+	width: 30%;
+	padding: 13px;
+}
+
+.exam {
+	width: 30%;
+}
+
+.view {
+	margin: 50px auto;
+	display: block;
+}
+
+.backlog_form {
+	margin: 100px auto;
+	font: 17px Arial;
+	line-height: 2em!important;
+}
+
+table {
+	border-collapse: collapse!important;
+}
+
+.table td {
+	border: solid 1px #000;
+	padding: 7px 15px;
+}
+
+h1 {
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+p {
+	line-height: 1.7em;
+	margin: 10px auto;
+}
+
+b {
+	font-weight: 600;
+}
+
+td {
+	padding: 0 10px 0 10px;
+	max-height: 11px;
+}
+
+.edit_rep_td {
+	width: 15px;
+	border: none!important;
+	/*padding-left: 10px!important;*/
+}
+
+.rep_td {
+	min-width: 300px;
+	height: 0px!important;
+	margin: 0!important;
+}
+
+.indiv_rep {
+	width: 70px!important;
+	border: none!important;
+	padding: 0!important;
+	margin: 0!important;
+}
+
+td input {
+	border: none;
+}
+
+.edit_marks {
+	border-bottom: solid 1px #fff;
+}
+
+#save {
+	width: 60px;
+}
+
+.edit {
+	background: transparent!important;
+	border: none;
+	color: #fff;
+	width: 60px;
+}
