@@ -1,0 +1,146 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 13px;
+	line-height: 0.8!important;
+}
+
+.container {
+	margin: 0 ;
+	width: 100%;
+	/*max-width: 1000px;*/
+	visibility: hidden;
+}
+
+.prov_bg {
+	/*background-image: url('prov_bg.jpg');*/
+	height: 907.086px;
+	width: 687.874px;
+	background-size: cover;
+	margin: 0 auto;
+}
+
+.header {
+	/*max-height: 60px;*/
+	margin-top: 15px;
+}
+
+.left img {
+	float: left;
+	width: 15%;
+}
+
+.right {
+	float: right;
+	width: 85%;
+	text-align: center;
+}
+
+.name {
+	font-size: 35px;
+	font-family: Roboto;
+	color: #c10000;
+}
+
+.clear {
+	clear: both;
+}
+
+.addr {
+	margin-top: 3px;
+	font-family: arial;
+	font-size: 15px;
+}
+
+.govt {
+	color: #fff;
+	background-color: #000;
+	font-family: Arimo;
+	letter-spacing: 2px;
+	display: inline-block;
+	margin: 10px 0;
+	padding: 5px 10px;
+}
+
+.prov {
+	text-decoration: underline;
+	color: #c10000;
+	font-family: Nunito;
+}
+
+.prov_form {
+	margin-left: 200px;
+}
+
+input {
+	border: 0;
+	padding: 0!important;
+	background-color: rgba(0,0,0,0);
+	/*border-bottom: dotted 1.5px;*/
+}
+
+.inp {
+	margin: 25px 0;
+	width: 33%;
+	float: left;
+	/*display: inline-block;*/
+}
+
+.inp_ref {
+	text-align: center;
+}
+
+.inp_date {
+	text-align: right;
+}
+
+.para {
+	line-height: 2.5;
+	justify-content: center;
+	visibility: hidden;
+}
+
+.para input {
+	width: 200px;
+	visibility: visible;
+}
+
+b {
+	visibility: hidden;
+	font-weight: 600;
+}
+
+table {
+	width: 100%;
+	margin-top: 50px;
+	border-collapse: collapse; 	
+}
+
+td, th {
+	padding: 10px;
+	text-align: center;
+}
+
+td {
+	visibility: visible;
+	padding: 0!important;
+	margin: 0!important
+}
+
+table input {
+	border: 0;
+}
+
+.left2 {
+	float: left;
+	width: 65%;
+}
+
+.right2 {
+	float: right;
+	width: 25%;
+}
+
+.grand_total {
+	visibility: hidden;
+}
