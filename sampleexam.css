@@ -1,0 +1,1490 @@
+html {
+	zoom: 80%;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1;
+	padding: 0;
+	margin-top: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
+/*globlal*/
+.container{
+	width: 85%;
+	margin: auto;
+	padding: 30px;
+	overflow: hidden;
+}
+
+/*Header*/
+header .photo{
+	float: left;
+	margin: 0px;
+	width: 5%;
+	filter: grayscale(100%);
+}
+
+header .txt{
+	padding-top: 27px;
+	font-size: 35px;
+	text-align: center;
+}
+
+header .txt1{
+	padding-top: 7px; 
+	font-size: 25px;
+	text-align: center;
+}
+
+header .border{
+	border-bottom: #000000 4.5px solid;
+	padding: 1px;
+	margin-left: 140px;
+	margin-right: 50px;
+}
+
+header .form{
+	text-align: center;
+	font-size: 30px;
+	padding-top: 1px;
+	margin-top: 5px;
+	margin-left: 79px;
+}
+
+header .context{
+	font-size: 25.4px;
+}
+
+header .linb2{
+	margin-left: 15px;
+}
+/*REGISTRATION TO THEORY SUBJECTS*/
+header .reg{
+	font-size: 25px;
+	margin-top: 30px;
+}
+
+header .regb{
+	margin-top: -5px;
+	margin-left: 5px;
+	height: 45px;
+	width: 46.5%;
+	font-size: 24px;
+}
+
+header .mot{
+	font-size: 25px;
+	float: right;
+	margin-right: 500px;
+	margin-top: -38px;
+}
+
+header .may{
+	font-size: 25px;
+	float: right;
+	margin-right: 390px;
+	margin-top: -50px;
+}
+
+header .dec{
+	font-size: 25px;
+	float: right;
+	margin-right: 322px;
+	margin-top: -20px;
+}
+
+header .yr{
+	font-size: 25px;
+	margin-top: -38px;
+	margin-left: 82%;
+}
+
+header .tex{
+	width: 60%;
+	height: 20px;
+	font-size: 17.8px;
+	text-align: center;
+	border-bottom: 2px solid;
+	background-color: #f4f4f4;
+  	border-right-color: #f4f4f4;
+  	border-left-width: 0px;	
+  	border-top-width: 0px;
+}
+
+.nam{
+	font-size: 25px;
+	margin-top: 28px;
+}
+
+.namb{
+	margin-left: 111px; 
+	height: 45px;
+	width: 82.5%;
+	font-size: 24px;
+}
+
+.fath{
+	font-size: 25px;
+	margin-top: 28px;
+}
+
+.fb{
+	margin-left: 13px; 
+	height: 45px;
+	width: 82.5%;
+	font-size: 24px;
+}
+
+.ins{
+	font-size: 25px;
+	margin-top: 28px;
+}
+
+.insb{
+	margin-left: 89px; 
+	height: 45px;
+	width: 82.5%;
+	font-size: 24px;
+}
+
+.cor{
+	font-size: 25px;
+	margin-top: 28px;
+}
+
+.corb{
+	height: 45px;
+	margin-left: 95px;
+	width: 82.5%; 
+	font-size: 24px;
+}
+
+.the{
+	font-size: 25px;
+	margin-top: 28px;
+}
+
+.theb{
+	font-size: 24px;
+	height: 35px;
+	width: 32px;
+}
+
+.max{
+	margin-top: -26.8px;
+	margin-left:740px;
+	font-size: 25px;
+}
+
+/*SEMESTER EXAM FILLING*/
+
+/*8. Regular Class*/
+.rc{
+	font-size: 25px;
+	background-color: #f4f4f4;
+	height: 35px;
+  	width: 485px;
+  	border: 2px solid ;
+  	padding: 10px;
+  	margin-top: 25px;
+  	padding-left: 29px;
+}
+
+.rcb{
+	margin-left: 52px;
+	font-size: 24px;
+	height: 35px;
+	width: 22px;
+}
+
+.sub{
+	font-size: 25px;
+	background-color: #f4f4f4;
+	height: 410px;
+  	width: 487px;
+  	border: 2px solid ;
+  	padding: 10px;
+  	padding-left: 27px;
+}
+
+.sb{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 30px;
+	margin-top: -10px;
+}
+
+.sub2{
+	font-size: 25px;
+	margin-left: 200px;
+	margin-top: -421.6px;
+}
+.sb2{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 230px;
+	margin-top: 1px;
+}
+
+.sub3{
+	font-size: 25px;
+	margin-left: 372px;
+	margin-top: -97px;
+
+}
+
+.sb3{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 401px;
+	margin-top: 2px;
+}
+
+.sub4{
+	font-size: 25px;
+	margin-left: 29px;
+}
+
+.sb4{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 60px;
+	margin-top: 1px;
+}
+
+.sub5{
+	font-size: 25px;
+	margin-left: 200px;
+	margin-top: -96px;
+}
+.sb5{
+	font-size: 24px;
+	margin-left: 230px;
+	height: 35px;
+	width: 70px;
+	margin-top: 1px;
+}
+
+.sub6{
+	font-size: 25px;
+	margin-left: 370px;
+	margin-top: -96px;
+}
+
+.sb6{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 400px;
+	margin-top: 0px;
+}
+
+.sub7{
+	font-size: 25px;
+	margin-left: 30px;
+	margin-top: 15px;
+}
+
+.sb7{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 60px;
+	margin-top: 1px;
+}
+
+.sub8{
+	font-size: 25px;
+	margin-left: 200px;
+	margin-top: -96px; 
+}
+
+.sb8{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 230px;
+	margin-top: 0px;
+}
+
+.sub9{
+	font-size: 25px;
+	margin-left: 370px;
+	margin-top: -96px; 
+}
+
+.sb9{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 400px;
+	margin-top: 0px;
+}
+
+.sub10{
+	font-size: 25px;
+	margin-left: 29px;
+}
+
+.sb10{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 60px;
+	margin-top: 0px;
+}
+
+.sub11{
+	font-size: 25px;
+	margin-left: 200px;
+	margin-top: -96px;
+}
+
+.sb11{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 230px;
+	margin-top: 0px;
+}
+
+.sub12{
+	font-size: 25px;
+	margin-left: 370px;
+	margin-top: -96px;
+}
+
+.sb12{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 400px;
+	margin-top: 0px;
+}
+
+/*Reappear Section (9. Reappear Class)*/
+.repc{
+	font-size: 25px;
+	margin-top: -461px;
+	margin-left: 550px;
+	display: block;
+  	width: 487px;
+  	height: 35px;
+  	padding: 10px;
+  	padding-left: 27px;
+  	border: 2px solid ;    
+  	background-color: #f4f4f4; 
+}
+
+.repb{
+	margin-left: 52px;
+	font-size: 24px;
+	height: 35px;
+	width: 22px;
+}
+
+.rpsub{
+	font-size: 25px;
+	background-color: #f4f4f4;
+	height: 410px;
+  	width: 487px;
+  	border: 2px solid ;
+  	margin-top: 0px;
+  	padding: 10px;
+  	padding-left: 27px;
+  	margin-left: 550px;
+}
+
+.repsub1{
+	font-size: 25px;
+}
+
+.rpsb1{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 30px;
+	margin-top: -100px;
+}
+
+.repsub2{
+	font-size: 25px;
+	margin-top: -108px; 
+	margin-left: 170px;
+}
+
+.rpsb2{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-top: -100px;
+	margin-left: 198px;
+}
+
+.repsub3{
+	font-size: 25px;
+	margin-left: 340px;
+	margin-top: -109px
+}
+
+.rpsb3{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-top: -10px;
+	margin-left: 368px;
+}
+
+.repsub4{
+	font-size: 25px;
+}
+
+.rpsb4{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-top: -10px;
+	margin-left: 30px;
+}
+
+.repsub5{
+	font-size: 25px;
+	margin-top: -110px;
+	margin-left: 170px;
+}
+
+.rpsb5{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-top: -6px;
+	margin-left: 198px; 
+}
+
+.repsub6{
+	font-size: 25px;
+	margin-top: -109px;
+	margin-left: 340px;
+}
+
+.rpsb6{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 368px;
+	margin-top: -10px;
+}
+
+.repsub7{
+	font-size: 25px;
+	margin-top: -16px;
+}
+
+.rpsb7{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 30px;
+	margin-top: -14px;
+}
+
+.repsub8{
+	font-size: 25px;
+	margin-top: -109px;
+	margin-left: 170px;
+}
+
+.rpsb8{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-top: -7px;
+	margin-left: 198px;
+}
+
+.repsub9{
+	font-size: 25px;
+	margin-top: -109px;
+	margin-left: 340px;
+}
+
+.rpsb9{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 368px;
+	margin-top: -10px;
+}
+
+.repsub10{
+	font-size: 25px;
+	margin-top: -12px;
+}
+
+.rpsb10{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-top: -10px;
+	margin-left : 30px; 
+}
+
+.repsub11{
+	font-size: 25px;
+	margin-top: -109px;
+	margin-left: 170px;
+}
+
+.rpsb11{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-top: -7px;
+	margin-left: 198px;
+}
+
+.repsub12{
+	font-size: 25px;
+	margin-top: -109px;
+	margin-left: 340px;
+}
+
+.rpsb12{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 368px;
+	margin-top: -10px;
+}
+
+/*Reappear Section (10. Reappear Class)*/
+.repc10{
+	font-size: 25px;
+	display: block;
+  	width: 492px;
+  	height: 35px;
+  	padding: 10px;
+  	padding-left: 27px;
+  	border: 2px solid ;    
+  	background-color: #f4f4f4; 
+  	margin-top: -493px;
+  	margin-left: 1097px;
+}
+
+.repb10{
+	font-size: 24px;
+	margin-left: 52px;
+	height: 35px;
+	width: 22px;
+}
+
+.re10{
+	font-size: 25px;
+	background-color: #f4f4f4;
+	height: 410px;
+  	width: 492px;
+  	border: 2px solid ;
+  	margin-top: 0px;
+  	padding: 10px;
+  	padding-left: 27px;
+  	margin-left: 1097px; 	
+}
+
+.cong1{
+	font-size: 25px;
+}
+
+.congb1{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 30px;
+	margin-top: -10px;
+}
+
+.cong2{
+	font-size: 25px;
+	margin-top: -108px;
+	margin-left: 178px;
+}
+
+.congb2{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 207px;
+	margin-top: -10px;
+}
+
+.cong3{
+	font-size: 25px;
+	margin-top: -108px;
+	margin-left: 348px;
+}
+
+.congb3{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 377px;
+	margin-top: -10px;
+}
+
+.cong4{
+	font-size: 25px;
+}
+
+.congb4{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 30px;
+	margin-top: -10px;
+}
+
+.cong5{
+	font-size: 25px;
+	margin-top: -108px;
+	margin-left: 178px;
+}
+
+.congb5{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 207px;
+	margin-top: -10px;
+}
+
+.cong6{
+	font-size: 25px;
+	margin-top: -108px;
+	margin-left: 348px;
+}
+
+.congb6{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 377px;
+	margin-top: -10px;
+}
+
+.cong7{
+	font-size: 25px;
+	margin-top: -16px;
+}
+
+.congb7{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 30px;
+	margin-top: -14px;
+}
+
+.cong8{
+	font-size: 25px;
+	margin-top: -109px;
+	margin-left: 176px;
+}
+
+.congb8{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-top: -7px;
+	margin-left: 204px;
+}
+
+.cong9{
+	font-size: 25px;
+	margin-top: -109px;
+	margin-left: 348px;
+}
+
+.congb9{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 378px;
+	margin-top: -10px;
+}
+
+.cong10{
+	font-size: 25px;
+	margin-top: -12px;
+}
+
+.congb10{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-top: -10px;
+	margin-left : 30px; 
+}
+
+.cong11{
+	font-size: 25px;
+	margin-top: -109px;
+	margin-left: 176px;
+}
+
+.congb11{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-top: -7px;
+	margin-left: 205px;
+}
+
+.cong12{
+	font-size: 25px;
+	margin-top: -109px;
+	margin-left: 346.7px;
+}
+
+.congb12{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 378px;
+	margin-top: -10px;
+}
+
+/*Reappear Section (11. Reappear Class)*/
+.repc2{
+	font-size: 25px;
+	display: block;
+  	width: 487px;
+  	height: 35px;
+  	padding: 10px;
+  	padding-left: 27px;
+  	border: 2px solid ;    
+  	background-color: #f4f4f4; 
+  	margin-top: 10px;
+}
+
+.repb2{
+	font-size: 24px;
+	margin-left: 52px;
+	height: 35px;
+	width: 22px;
+}
+
+.re2{
+	font-size: 25px;
+	background-color: #f4f4f4;
+	height: 410px;
+  	width: 487px;
+  	border: 2px solid ;
+  	margin-top: 0px;
+  	padding: 10px;
+  	padding-left: 27px; 	
+}
+
+.exp1{
+	font-size: 25px;
+}
+
+.expb1{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-top: -11px;
+	margin-left: 27px;
+}
+
+.exp2{
+	font-size: 25px;
+	margin-top: -108px;
+	margin-left: 175px; 
+}
+
+.expb2{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-top: -10px;
+	margin-left: 202px;
+}
+
+.exp3{
+	font-size: 25px;
+	margin-top: -108px;
+	margin-left: 340px;
+
+}
+
+.expb3{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-top: -10px;
+	margin-left: 369px; 
+}
+
+.exp4{
+	font-size: 25px;
+	margin-top: -10px;
+}
+
+.expb4{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-top: -10px;
+	margin-left: 27px; 
+}
+
+.exp5{
+	font-size: 25px;
+	margin-top: -108px;
+	margin-left: 175px; 
+}
+.expb5{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-top: -10px;
+	margin-left: 202px;
+}
+
+.exp6{
+	font-size: 25px;
+	margin-top: -108px;
+	margin-left: 340px;	
+}
+
+.expb6{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-top: -10px;
+	margin-left: 369px; 
+}
+
+.exp7{
+	font-size: 25px;
+	margin-top: -10px;
+}
+
+.expb7{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-top: -10px;
+	margin-left: 27px; 
+}
+
+.exp8{
+	font-size: 25px;
+	margin-top: -108px;
+	margin-left: 175px; 
+}
+
+.expb8{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-top: -10px;
+	margin-left: 202px;
+}
+
+.exp9{
+	font-size: 25px;
+	margin-top: -108px;
+	margin-left: 340px;	
+}
+
+.expb9{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-top: -10px;
+	margin-left: 369px; 	
+}
+
+.exp10{
+	font-size: 25px;
+	margin-top: -10px;
+}
+
+.expb10{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-top: -10px;
+	margin-left: 27px; 
+}
+
+.exp11{
+	font-size: 25px;
+	margin-top: -108px;
+	margin-left: 175px; 
+}
+
+.expb11{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-top: -10px;
+	margin-left: 202px;
+}
+
+.exp12{
+	font-size: 25px;
+	margin-top: -108px;
+	margin-left: 340px;
+}
+
+.expb12{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-top: -10px;
+	margin-left: 369px; 
+}
+
+/*Reappear Section (12. Reappear Class)*/
+.vice{
+	font-size: 25px;
+	display: block;
+  	width: 487px;
+  	height: 35px;
+  	padding: 10px;
+  	padding-left: 27px;
+  	border: 2px solid ;    
+  	background-color: #f4f4f4; 
+  	margin-top: -493px;
+  	margin-left: 550px;
+}
+
+.viceb2{
+	font-size: 24px;
+	margin-left: 52px;
+	height: 35px;
+	width: 22px;
+}
+
+.ava{
+	font-size: 25px;
+	background-color: #f4f4f4;
+	height: 410px;
+  	width: 487px;
+  	border: 2px solid ;
+  	margin-top: 0px;
+  	padding: 10px;
+  	padding-left: 27px;
+  	margin-left: 550px; 	
+}
+
+.ava1{
+	font-size: 25px;
+}
+
+.avab1{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 30px;
+	margin-top: -100px;
+}
+
+.ava2{
+	font-size: 25px;
+	margin-top: -108px; 
+	margin-left: 170px;
+}
+
+.avab2{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-top: -100px;
+	margin-left: 198px;
+}
+
+.ava3{
+	font-size: 25px;
+	margin-left: 340px;
+	margin-top: -109px
+}
+
+.avab3{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-top: -10px;
+	margin-left: 368px;
+}
+
+.ava4{
+	font-size: 25px;
+}
+
+.avab4{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-top: -10px;
+	margin-left: 30px;
+}
+
+.ava5{
+	font-size: 25px;
+	margin-top: -110px;
+	margin-left: 170px;
+}
+
+.avab5{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-top: -6px;
+	margin-left: 198px; 
+}
+
+.ava6{
+	font-size: 25px;
+	margin-top: -109px;
+	margin-left: 340px;
+}
+
+.avab6{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 368px;
+	margin-top: -10px;
+}
+
+.ava7{
+	font-size: 25px;
+	margin-top: -16px;
+}
+
+.avab7{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 30px;
+	margin-top: -14px;
+}
+
+.ava8{
+	font-size: 25px;
+	margin-top: -109px;
+	margin-left: 170px;
+}
+
+.avab8{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-top: -7px;
+	margin-left: 198px;
+}
+
+.ava9{
+	font-size: 25px;
+	margin-top: -109px;
+	margin-left: 340px;
+}
+
+.avab9{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 368px;
+	margin-top: -10px;
+}
+
+.ava10{
+	font-size: 25px;
+	margin-top: -12px;
+}
+
+.avab10{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-top: -10px;
+	margin-left : 30px; 
+}
+
+.ava11{
+	font-size: 25px;
+	margin-top: -109px;
+	margin-left: 170px;
+}
+
+.avab11{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-top: -7px;
+	margin-left: 198px;
+}
+
+.ava12{
+	font-size: 25px;
+	margin-top: -109px;
+	margin-left: 340px;
+}
+
+.avab12{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 368px;
+	margin-top: -10px;
+}
+
+/*Reappear Section (13. Reappear Class)*/
+.orc{
+	font-size: 25px;
+	display: block;
+  	width: 492px;
+  	height: 35px;
+  	padding: 10px;
+  	padding-left: 27px;
+  	border: 2px solid ;    
+  	background-color: #f4f4f4; 
+  	margin-top: -493px;
+  	margin-left: 1097px;
+}
+
+.orcb{
+	font-size: 24px;
+	margin-left: 52px;
+	height: 35px;
+	width: 22px;
+}
+
+.las{
+	font-size: 25px;
+	background-color: #f4f4f4;
+	height: 410px;
+  	width: 492px;
+  	border: 2px solid ;
+  	margin-top: 0px;
+  	padding: 10px;
+  	padding-left: 27px;
+  	margin-left: 1097px; 	
+}
+
+.las1{
+	font-size: 25px;
+}
+
+.lasb1{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 30px;
+	margin-top: -10px;
+}
+
+.las2{
+	font-size: 25px;
+	margin-top: -108px;
+	margin-left: 178px;
+}
+
+.lasb2{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 207px;
+	margin-top: -10px;
+}
+
+.las3{
+	font-size: 25px;
+	margin-top: -108px;
+	margin-left: 348px;
+}
+
+.lasb3{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 377px;
+	margin-top: -10px;
+}
+
+.las4{
+	font-size: 25px;
+}
+
+.lasb4{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 30px;
+	margin-top: -10px;
+}
+
+.las5{
+	font-size: 25px;
+	margin-top: -108px;
+	margin-left: 178px;
+}
+
+.lasb5{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 207px;
+	margin-top: -10px;
+}
+
+.las6{
+	font-size: 25px;
+	margin-top: -108px;
+	margin-left: 348px;
+}
+
+.lasb6{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 377px;
+	margin-top: -10px;
+}
+
+.las7{
+	font-size: 25px;
+	margin-top: -16px;
+}
+
+.lasb7{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 30px;
+	margin-top: -14px;
+}
+
+.las8{
+	font-size: 25px;
+	margin-top: -109px;
+	margin-left: 176px;
+}
+
+.lasb8{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-top: -7px;
+	margin-left: 204px;
+}
+
+.las9{
+	font-size: 25px;
+	margin-top: -109px;
+	margin-left: 348px;
+}
+
+.lasb9{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 378px;
+	margin-top: -10px;
+}
+
+.las10{
+	font-size: 25px;
+	margin-top: -12px;
+}
+
+.lasb10{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-top: -10px;
+	margin-left : 30px; 
+}
+
+.las11{
+	font-size: 25px;
+	margin-top: -109px;
+	margin-left: 176px;
+}
+
+.lasb11{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-top: -7px;
+	margin-left: 205px;
+}
+
+.las12{
+	font-size: 25px;
+	margin-top: -109px;
+	margin-left: 346.7px;
+}
+
+.lasb12{
+	font-size: 24px;
+	height: 35px;
+	width: 70px;
+	margin-left: 378px;
+	margin-top: -10px;
+}
+
+/*END OF SEMESTER EXAM FILLING*/
+
+/*FEE*/
+.fee{
+	font-size: 25px;
+	margin-left: 30px;
+	margin-top: 0px;
+}
+
+.rs{
+	font-size: 25px;
+}
+
+.feeb{
+	font-size: 24px;
+	height: 35px;
+	width: 60px;
+	margin-left: 6px;
+	border-bottom: 2px solid;    
+  	background-color: #f4f4f4;
+  	border-right-color: #f4f4f4;
+  	border-left-width: 0px;	
+  	border-top-width: 0px;
+  	text-align: center;
+}
+
+.date{
+	font-size: 25px;	
+	margin-left: 400px;
+}
+
+.dat{
+	font-size: 24px;
+	height: 35px;
+	width: 203.9px;
+	border-bottom: 2px solid;
+	background-color: #f4f4f4;
+  	border-right-color: #f4f4f4;
+  	border-left-width: 0px;	
+  	border-top-width: 0px;
+  	text-align: center;
+}
+
+.feeinw{
+	font-size: 25px;
+	margin-left: 31px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.fe{
+	font-size: 24px;
+	height: 35px;
+	width: 915px;
+	margin-left: 6px; 
+	border-bottom: 2px solid;    
+  	background-color: #f4f4f4;
+  	border-right-color: #f4f4f4;
+  	border-left-width: 0px;	
+  	border-top-width: 0px;
+}
+
+.sig{
+	font-size: 25px;
+	margin-left: 122.4px; 
+}
+
+/*CERTIFICATE BY THE PRINCIPAL*/
+.cert{
+	font-size: 25px;
+  	width: 1608px;
+  	height: 330px;
+  	padding: 10px;
+  	border: 3.4px solid;    
+  	background-color: #f4f4f4; 
+  	text-align: center;
+  	margin-bottom: -30px;
+  	padding-bottom: -27px;
+}
+
+
+.line1{
+	font-size: 24px;
+	margin-left: 14px;
+	margin-top: -310px;
+}
+
+.candin{
+	font-size: 24px;
+	width: 280px;
+	border-bottom: 2px solid;    
+  	background-color: #f4f4f4;
+  	border-right-color: #f4f4f4;
+  	border-left-width: 0px;	
+  	border-top-width: 0px;
+  	text-align: center;
+}
+
+.candin2{
+	font-size: 24px;
+	width: 205px;
+	border-bottom: 2px solid;    
+  	background-color: #f4f4f4;
+  	border-right-color: #f4f4f4;
+  	border-left-width: 0px;	
+  	border-top-width: 0px;
+  	text-align: center;
+}
+
+.linb{
+	font-size: 24px;
+	margin-left: 28px;
+}
+
+.date2{
+	font-size: 24px;
+	margin-top: 18px;
+	margin-left: 42px;
+}
+
+.datlas{
+	font-size: 24px;
+	width: 203.9px;
+	border-bottom: 2px solid;
+	background-color: #f4f4f4;
+  	border-right-color: #f4f4f4;
+  	border-left-width: 0px;	
+  	border-top-width: 0px;
+  	text-align: center;
+}
+
+.seal{
+	margin-left: 130px;
+}
+
+.pric{
+	margin-left: 576px;
+}
+
+/*eg*/
+.rcb2{
+  	margin-top: 50px;
+}
+

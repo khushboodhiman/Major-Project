@@ -1,0 +1,82 @@
+@import url('font.css');
+
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font: 17px raleway;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+body {
+	background-image: url('back_dark.png');
+	background-size: cover;
+	color: #fff!important;
+}
+
+.rule {
+	background-color: #fff;
+	height: 2px;
+}
+
+.header {
+	background-color: #fff;
+}
+
+.header img {
+	display: block;
+	margin: auto;
+}
+
+.nav-bar {
+	background-color: #B22222;
+	display: flex;
+	justify-content: center;
+}
+
+.nav-bar .active {
+	background-color: rgba(0,0,0,0.5);
+	padding: 15px 20px;
+	margin: 0;
+}
+
+.nav-bar a {
+	flex-direction: row;
+	margin: 17px;
+	font: 18px raleway;
+	color: #fff;
+}
+
+.exam_form {
+	padding: 20px;
+	max-width: 500px;
+	margin: 20px auto;
+	background-color: rgba(0,0,0,0.6);
+	height: 400px;
+
+}
+
+input {
+	display: inline-block;
+	margin: 15px auto;
+	color: #000;
+	width: 100%;
+	height: 40px;
+	/*border: solid 1px #fff;*/
+	border-radius: 30px;
+	background-color: rgba(255,255,255,0.8);
+	border: 0;
+	border-bottom: solid 1px #fff;
+}
+
+.button:hover {
+	transition-property: all;
+	transition-duration: 2s;
+	color: #fff;
+	background-color: #000;
+}

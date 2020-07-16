@@ -29,7 +29,7 @@ if(isset($_POST['submit'])) {
 
 		<div class="notice"><b><u>NOTICE</u></b></div>
 
-		<p><span class="text">The name of <input class="sname" name="Student" value='<?php echo $r[2]; ?>'> S/o <span class="tt"></span> D/o <b><input class="fname" name="fname"></b> Class Roll <br><span class="break"> No. <b><input class="roll" name="Roll NO"> </b> Class <b><input class="sem" name="semester"> </b> Sem. of <b> <input class="trade" name="trade"></b> has been struck-off the college Roll </span> due <br> <span class="break2">to <b> <input class="reason" name="reason"> </b></span> </span></p>
+		<p><span class="text">The name of <input class="sname" name="Student" value='<?php echo $r[1]; ?>'> S/o <span class="tt"></span> D/o <b><input class="fname" name="fname" value='<?php echo $r[4]; ?>'></b> Class Roll <br><span class="break"> No. <b><input class="roll" name="Roll NO" value='<?php echo $r[7]; ?>'> </b> Class <b><input class="sem" name="semester" value='<?php echo $r[3]; ?>'> </b> Sem. of <b> <input class="trade" name="trade" value='<?php echo $r[8]; ?>'></b> has been struck-off the college Roll </span> due <br> <span class="break2">to <b> <input class="reason" name="reason"> </b></span> </span></p>
 
 		<br> <br> <br> <br> <br> <span class="tut"><b> Tutor <span class="hod"> HOD <br><input  class="app" name="">  </span> </span> </b></span>
 
