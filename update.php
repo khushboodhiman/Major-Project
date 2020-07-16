@@ -34,6 +34,7 @@
 		        	$category=$dat[9];
 		        	$address=$dat[12];
 		        	$number=$dat[10];
+			$email=$dat[11];
 		        	$gender=$dat[13];
 		          echo '<table border="5"  cellspacing="3">';
 		          echo "<tr><td><label class='lab'>Registeration number</label></td>". "<td><input type='number' name='registerno' value='$register'></td></tr><br>";
@@ -48,6 +49,7 @@
 		          echo "<tr><td><label class='lab'>Address</label></td>" . "<td><input type='text' value='$address' name='address'></td></tr><br>";
 		          echo "<tr><td><label class='lab'>Phone number</label></td>" . "<td><input type='number' value='$number' name='pnumber'></td></tr><br>";
 		          echo "<tr><td><label class='lab'>Gender</label></td>" ."<td><input type='text' name='gender' value='$gender'></td></tr><br>";
+		          echo "<tr><td><label class='lab'>Email</label></td>" ."<td><input type='text' name='email' value='$email'></td></tr><br>";
 		          echo "<button type='submit' name='update'>Update Data</button>";
 		          echo '</table>';
 		        }
@@ -65,12 +67,10 @@
 			         $ca=$_POST['category'];
 			         $add=$_POST['address'];
 			         $phone=$_POST['pnumber'];
-			         $query="UPDATE samplee SET Name='$sn',Father_Name='$fn',Mother_Name='$mn',Date_of_Birth='$da',Class_Roll_No='$rn',Branch='$bh',Semester='$se',Category='$ca',Address='$add',Phone_Number='$phone'";
+			         $email=$_POST['email'];
+			         $query="UPDATE record SET name='$sn',f_name='$fn',m_name='$mn',dob='$da',class_rno='$rn',branch='$bh',sem='$se',email='$email', category='$ca',addr='$add',mob='$phone'";
 			         $data=mysqli_query($connection,$query);
-			         if ($data)
-			         {
-			           echo '<script>alert("Data Updated")</script>';
-			         }
+			         
 			     
 			 	}
 			
